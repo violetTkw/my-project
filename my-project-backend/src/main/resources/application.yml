@@ -1,1 +1,21 @@
-
+spring:
+  mail:
+    host: SMTP.163.COM
+    username: violettkw@163.com
+    password: PPEWJGINSAPFGNBZ
+  rabbitmq:
+    addresses: localhost
+    username: admin
+    password: admin
+    virtual-host: /
+  security:
+    jwt:
+      key: abcdefhijk
+      expire : 7
+    filter:
+      order: -100
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
